@@ -7,6 +7,8 @@
 
 The easier way to start is using the [jaschweder/jupyter](https://github.com/jaswdr/docker-jupyter) Docker image that contains all required dependencies.
 
+**Using Docker**
+
 ```bash
 #!/bin/bash
 
@@ -20,6 +22,14 @@ docker run \
 ```
 
 Open http://localhost:8888
+
+**Using Jupyter***
+
+```bash
+jupyter lab
+```
+
+New browser window will automatically open, or the link to open the Jupyter lab will be printed.
 
 ### License
 

@@ -1,4 +1,5 @@
-pandas==1.2.1
-numpy==1.22.0
-wordcloud==1.8.1
-seaborn==0.11.1
+pandas==1.4.3
+numpy==1.23.2
+wordcloud==1.8.2.2
+matplotlib==3.5.3
+scikit-learn==1.1.2
