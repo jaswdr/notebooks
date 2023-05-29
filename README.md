@@ -6,7 +6,7 @@
 ### Getting started
 
 The easier way to start is using the [jaschweder/jupyter](https://github.com/jaswdr/docker-jupyter) Docker image that contains all required dependencies.
-
+C:\Users\jonat\Documents\GitHub\digits-recognizer-kubeflow\digits_recognizer_notebook.ipynb
 **Using Docker**
 
 ```bash
