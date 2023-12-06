@@ -5,31 +5,11 @@
 
 ### Getting started
 
-The easier way to start is using the [jaschweder/jupyter](https://github.com/jaswdr/docker-jupyter) Docker image that contains all required dependencies.
-C:\Users\jonat\Documents\GitHub\digits-recognizer-kubeflow\digits_recognizer_notebook.ipynb
-**Using Docker**
-
-```bash
-#!/bin/bash
-
-docker pull jaschweder/jupyter
-
-docker run \
-    -d \
-    -p 8888:8888 \
-    -v $(PWD):/home/jovyan \
-    jaschweder/jupyter
+```
+$ source ./setup.sh
+$ ./start.sh
 ```
 
-Open http://localhost:8888
-
-**Using Jupyter***
-
-```bash
-jupyter lab
-```
-
-New browser window will automatically open, or the link to open the Jupyter lab will be printed.
 
 ### License
 
