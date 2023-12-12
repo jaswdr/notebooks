@@ -1,0 +1,16 @@
+#!/bin/bash
+
+export SOURCE_DIR="$HOME/Code/notebooks/"
+
+if [ ! -d "$SOURCE_DIR/.venv" ]; then
+	# Setup environment
+	python3 -m venv "$SOURCE_DIR/.venv"
+	source "$SOURCE_DIR/.venv/bin/activate"
+
+	# Install dependencies
+	pip install -r requirements.txt
+else
+	source "$SOURCE_DIR/.venv/bin/activate"
+fi
+
+(cd $SOURCE_DIR && python -m jupyter notebook --log-level ERROR -y)
