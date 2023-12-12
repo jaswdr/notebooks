@@ -6,8 +6,7 @@
 ### Getting started
 
 ```
-$ source ./setup.sh
-$ ./start.sh
+$ ./jupyter-start
 ```
 
 
