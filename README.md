@@ -6,7 +6,8 @@
 ### Getting started
 
 ```
-$ ./jupyter-start
+$ mkdir $HOME/Code/ && git clone https://github.com/jaswdr/notebooks
+$ cd $HOME/Code/ && ./jupyter-start
 ```
 
 
